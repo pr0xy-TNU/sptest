@@ -29,21 +29,20 @@ public class LocalShopRepository implements ILocalShopRepository {
 
     @Override
     public ShopEntity create() {
-        return null;
+        return new ShopEntity("shopName", "shopAddress", "shopOwner", 23.2);
     }
 
     @Override
     public List<ShopEntity> getAll() {
-        return null;
+        return list;
     }
 
     @Override
     public void loadJson() {
         ClassLoader loader = ClassLoader.getSystemClassLoader();
         ObjectMapper mapper = new ObjectMapper();
-        List<ShopEntity> jsonData;
         try {
-            jsonData = mapper.readValue(loader.getResource(Utils.JSON_PATH),
+            list = mapper.readValue(loader.getResource(Utils.JSON_PATH),
                 new TypeReference<List<ShopEntity>>() {
                 });
         } catch (IOException e) {
@@ -54,6 +53,11 @@ public class LocalShopRepository implements ILocalShopRepository {
     @Override
     public void writeJson() {
         ObjectMapper mapper = new ObjectMapper();
+    }
 
+    @Override
+    public List<ShopEntity> getDataFromJson(){
+        loadJson();
+        return list;
     }
 }

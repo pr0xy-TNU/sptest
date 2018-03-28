@@ -13,4 +13,6 @@ public interface IShopDao {
 
     void add(List<ShopEntity> list);
 
+    ShopEntity getShopByIdBeta(int id);
+
 }

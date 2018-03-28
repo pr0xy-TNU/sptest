@@ -13,4 +13,6 @@ public interface IShopService {
 
     void add(List<ShopEntity> list);
 
+    ShopEntity getShopByIdBeta(int id);
+
 }

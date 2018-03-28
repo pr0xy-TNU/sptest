@@ -38,4 +38,10 @@ public class ShopService implements IShopService {
     public void add(List<ShopEntity> list) {
         shopDao.add(list);
     }
+
+    @Transactional(readOnly = true)
+    @Override
+    public ShopEntity getShopByIdBeta(int id) {
+        return shopDao.getShopByIdBeta(id);
+    }
 }

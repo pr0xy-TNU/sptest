@@ -17,5 +17,6 @@ public interface ILocalShopRepository {
     void loadJson();
 
     void writeJson();
+    public List<ShopEntity> getDataFromJson();
 
 }
