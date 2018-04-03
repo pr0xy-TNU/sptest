@@ -8,6 +8,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import repository.ILocalShopRepository;
+import repository.IShopJpaRepository;
 import repository.LocalShopRepository;
 
 
@@ -35,4 +36,11 @@ public class AppConfig {
     public ILocalShopRepository getShopRepository() {
         return new LocalShopRepository();
     }
+
+    @Bean
+    public IShopJpaRepository getShopJpaRepository(){
+        return  null;
+    }
+
+
 }

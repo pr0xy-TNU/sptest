@@ -1,13 +1,16 @@
 package dao;
 
 import entities.ShopEntity;
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.CriteriaUpdate;
 import javax.persistence.criteria.Root;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -15,6 +18,11 @@ import org.hibernate.criterion.Projection;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
+
+import static starter.Starter.logger;
+import static starter.Starter.main;
+
+import sun.plugin2.message.Message;
 import utils.Utils.ShopTable;
 
 
@@ -26,7 +34,7 @@ public class ShopDao implements IShopDao {
 
     @Override
     public void add(ShopEntity shopEntity) {
-        manager.persist(shopEntity);
+        manager.merge(shopEntity);
     }
 
     @Override
@@ -87,9 +95,38 @@ public class ShopDao implements IShopDao {
 
     @Override
     public ShopEntity getShopByIdBeta(int id) {
-        /*CriteriaQuery<ShopEntity> query = manager.getCriteriaBuilder()
-            .createQuery(ShopEntity.class);
-        Root<ShopEntity> root = query.from(ShopEntity.class);*/
         return manager.find(ShopEntity.class, id);
+    }
+
+    @Override
+    public ShopEntity update(int id, ShopEntity shopEntity) {
+        ShopEntity tempEntity = getShopById(id);
+
+        CriteriaBuilder builder = manager.getCriteriaBuilder();
+        if (tempEntity != null) {
+            CriteriaUpdate<ShopEntity> criteriaUpdate = builder
+                .createCriteriaUpdate(ShopEntity.class);
+            Root<ShopEntity> root = criteriaUpdate.from(ShopEntity.class);
+            criteriaUpdate.set(root.get(ShopTable.ADDRESS), tempEntity.getShopAddress());
+            criteriaUpdate
+                .set(root.get(ShopTable.CUSTOMERS_DENSITY), tempEntity.getShopCustomerDensity());
+            criteriaUpdate.set(root.get(ShopTable.NAME), tempEntity.getShopName());
+            criteriaUpdate.set(root.get(ShopTable.OWNER), tempEntity.getShopOwner());
+            criteriaUpdate.where(builder.equal(root.get(ShopTable.ID), tempEntity.getShopId()));
+            int result = manager.createQuery(criteriaUpdate).executeUpdate();
+            logger
+                .info(MessageFormat.format("Instance with id={0} was added in row{1}", id, result));
+            return shopEntity;
+        } else {
+            create(shopEntity);
+        }
+        return shopEntity;
+    }
+
+    @Override
+    public void create(ShopEntity shopEntity) {
+        if (shopEntity != null) {
+            manager.merge(shopEntity);
+        }
     }
 }

@@ -15,4 +15,8 @@ public interface IShopService {
 
     ShopEntity getShopByIdBeta(int id);
 
+    ShopEntity update(int id, ShopEntity shopEntity);
+
+    void create(ShopEntity shopEntity);
+
 }

@@ -14,7 +14,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "shop", schema = "jpa_test_db")
-public class ShopEntity implements Serializable {
+public class ShopEntity implements Serializable{
 
     private int shopId;
     private String shopName;

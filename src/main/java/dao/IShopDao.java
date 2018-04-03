@@ -15,4 +15,8 @@ public interface IShopDao {
 
     ShopEntity getShopByIdBeta(int id);
 
+    ShopEntity update(int id, ShopEntity shopEntity);
+
+    void create(ShopEntity shopEntity);
+
 }
