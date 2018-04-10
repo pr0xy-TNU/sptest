@@ -11,6 +11,8 @@
     <class>entities.ClazzesEntity</class>
     <class>entities.StudentEntity</class>
     <class>entities.ShopEntity</class>
+    <class>entities.AlbumsEntity</class>
+    <class>entities.ArtistsEntity</class>
     <properties>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_test_db?useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
@@ -18,6 +20,14 @@
       <property name="javax.persistence.jdbc.password" value="root"/>
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_test_db"/>
+      <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/jpa_test_db"/>
+      <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+      <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/jpa_test_db"/>
+      <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+      <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_test_db"/>
+      <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
     </properties>
   </persistence-unit>
 </persistence>
