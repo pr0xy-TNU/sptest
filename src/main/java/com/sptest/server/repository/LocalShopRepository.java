@@ -6,7 +6,7 @@ import com.sptest.server.dao.model.entities.ShopEntity;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import com.sptest.server.utils.Utils;
+import com.sptest.server.utils.DBConstants;
 
 public class LocalShopRepository implements ILocalShopRepository {
 
@@ -41,7 +41,7 @@ public class LocalShopRepository implements ILocalShopRepository {
         ClassLoader loader = ClassLoader.getSystemClassLoader();
         ObjectMapper mapper = new ObjectMapper();
         try {
-            list = mapper.readValue(loader.getResource(Utils.JSON_PATH),
+            list = mapper.readValue(loader.getResource(DBConstants.JSON_PATH),
                 new TypeReference<List<ShopEntity>>() {
                 });
         } catch (IOException e) {

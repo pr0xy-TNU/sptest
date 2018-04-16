@@ -6,7 +6,8 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
 
-@Repository
+
+/*
 public class AlbumDao implements IAlbumDao {
 
     @PersistenceContext
@@ -17,3 +18,4 @@ public class AlbumDao implements IAlbumDao {
         manager.persist(entity);
     }
 }
+*/

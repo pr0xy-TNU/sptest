@@ -6,13 +6,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Projection;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
-import com.sptest.server.utils.Utils.ShopTable;
+import com.sptest.server.utils.DBConstants.ShopTable;
 
 
 @Repository
@@ -84,9 +86,10 @@ public class ShopDao implements IShopDao {
 
     @Override
     public ShopEntity getShopByIdBeta(int id) {
-        /*CriteriaQuery<ShopEntity> query = manager.getCriteriaBuilder()
+CriteriaQuery<ShopEntity> query = manager.getCriteriaBuilder()
             .createQuery(ShopEntity.class);
-        Root<ShopEntity> root = query.from(ShopEntity.class);*/
+        Root<ShopEntity> root = query.from(ShopEntity.class);
+
         return manager.find(ShopEntity.class, id);
     }
 }

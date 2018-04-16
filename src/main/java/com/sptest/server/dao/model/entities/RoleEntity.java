@@ -1,5 +1,6 @@
 package com.sptest.server.dao.model.entities;
 
+import com.sun.istack.internal.NotNull;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
@@ -16,97 +17,100 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "role")
+@Table(name = "player_role")
 public class RoleEntity implements Serializable {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  @Column(name = "id")
-  private int id;
+    @Id
+    @NotNull
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Long id;
 
-  @Basic
-  @Column(name = "role_name")
-  private String roleName;
+    @Basic
+    @Column(name = "role_name")
+    private String roleName;
 
-  @Basic
-  @Column(name = "role_salary")
-  private double roleSalary;
+    @Basic
+    @Column(name = "role_salary")
+    private double roleSalary;
 
-  @Basic
-  @Column(name = "role_code")
-  private int roleCode;
+    @Basic
+    @Column(name = "role_code")
+    private int roleCode;
 
-  public RoleEntity(String roleName, double roleSalary, int roleCode) {
-    this(roleName, roleSalary);
-    this.roleCode = roleCode;
-  }
+    public RoleEntity(String roleName, double roleSalary, int roleCode) {
+        this(roleName, roleSalary);
+        this.roleCode = roleCode;
+    }
 
-  @ManyToMany(cascade = CascadeType.ALL)
-  @JoinTable(
-      name = "role_employee",
-      joinColumns = {@JoinColumn(name = "id")},
-      inverseJoinColumns = {@JoinColumn(name = "role_id")})
-  private Set<EmployeeEntity> employees = new HashSet<>();
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+        name = "role_employee",
+        joinColumns = {@JoinColumn(name = "id")},
+        inverseJoinColumns = {@JoinColumn(name = "role_id")})
+    private Set<EmployeeEntity> employees = new HashSet<>();
 
-  public RoleEntity(String roleName, double roleSalary) {
-    this.roleName = roleName;
-    this.roleSalary = roleSalary;
-  }
+    public RoleEntity(String roleName, double roleSalary) {
+        this.roleName = roleName;
+        this.roleSalary = roleSalary;
+    }
 
-  public RoleEntity(int id, String roleName, double roleSalary) {
-    this(roleName, roleSalary);
-    this.id = id;
-  }
+    public RoleEntity(Long id, String roleName, double roleSalary) {
+        this(roleName, roleSalary);
+        this.id = id;
+    }
 
-  public RoleEntity(int id, String roleName, double roleSalary, int roleCode) {
-    this.id = id;
-    this.roleName = roleName;
-    this.roleSalary = roleSalary;
-    this.roleCode = roleCode;
-  }
+    public RoleEntity(Long id, String roleName, double roleSalary, int roleCode) {
+        this.id = id;
+        this.roleName = roleName;
+        this.roleSalary = roleSalary;
+        this.roleCode = roleCode;
+    }
 
-  public RoleEntity() {
-    //default
-  }
 
-  public int getId() {
-    return id;
-  }
 
-  public void setId(int roleId) {
-    this.id = roleId;
-  }
+    public RoleEntity() {
+        //default
+    }
 
-  public String getRoleName() {
-    return roleName;
-  }
+    public Long getId() {
+        return id;
+    }
 
-  public void setRoleName(String roleName) {
-    this.roleName = roleName;
-  }
+    public void setId(Long roleId) {
+        this.id = roleId;
+    }
 
-  public double getRoleSalary() {
-    return roleSalary;
-  }
+    public String getRoleName() {
+        return roleName;
+    }
 
-  public void setRoleSalary(double roleSalary) {
-    this.roleSalary = roleSalary;
-  }
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
+    }
 
-  public int getRoleCode() {
-    return roleCode;
-  }
+    public double getRoleSalary() {
+        return roleSalary;
+    }
 
-  public void setRoleCode(int roleCode) {
-    this.roleCode = roleCode;
-  }
+    public void setRoleSalary(double roleSalary) {
+        this.roleSalary = roleSalary;
+    }
 
-  public Set<EmployeeEntity> getEmployees() {
-    return employees;
-  }
+    public int getRoleCode() {
+        return roleCode;
+    }
 
-  public void setEmployees(Set<EmployeeEntity> employees) {
-    this.employees = employees;
-  }
+    public void setRoleCode(int roleCode) {
+        this.roleCode = roleCode;
+    }
+
+    public Set<EmployeeEntity> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(Set<EmployeeEntity> employees) {
+        this.employees = employees;
+    }
 
 }

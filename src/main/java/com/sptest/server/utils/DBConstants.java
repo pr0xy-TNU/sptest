@@ -1,9 +1,16 @@
 package com.sptest.server.utils;
 
-public class Utils {
+public class DBConstants {
 
     public static final String DB_NAME = "phone";
     public static final String JSON_PATH = "shop_data.json";
+
+
+    //Role constant
+    public static final String ROLE_USER = "role_user";
+    public static final String ROLE_ADMIN = "role_admin";
+    public static final String ROLE_VIP_USER = "role_vip_user";
+    public static final String ROLE_TESTER = "role_tester";
 
     public class StudentTable {
 

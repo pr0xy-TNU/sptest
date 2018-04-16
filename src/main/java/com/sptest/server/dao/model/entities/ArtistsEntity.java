@@ -13,13 +13,13 @@ import javax.persistence.Table;
 @Table(name = "artists", schema = "jpa_test_db")
 public class ArtistsEntity {
 
-  private int artistId;
+  private Long artistId;
   private String artistName;
   private List<AlbumsEntity> albums;
 
   @Id
   @Column(name = "artist_id")
-  public int getArtistId() {
+  public Long getArtistId() {
     return artistId;
   }
 
@@ -44,7 +44,7 @@ public class ArtistsEntity {
     this.artistName = artistName;
   }
 
-  public void setArtistId(int artistId) {
+  public void setArtistId(Long artistId) {
     this.artistId = artistId;
   }
 
@@ -53,7 +53,7 @@ public class ArtistsEntity {
     this.artistName = artistName;
   }
 
-  public ArtistsEntity(int artistId, String artistName) {
+  public ArtistsEntity(Long artistId, String artistName) {
     this(artistName);
     this.artistId = artistId;
   }
