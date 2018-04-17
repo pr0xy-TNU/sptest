@@ -1,13 +1,20 @@
 package com.sptest.server.starter;
 
 import com.sptest.server.config.AppConfig;
+import com.sptest.server.dao.model.dto.AccountDTO;
+import com.sptest.server.dao.model.dto.PlayerDTO;
 import com.sptest.server.dao.model.entities.EmployeeEntity;
 import com.sptest.server.dao.model.entities.RoleEntity;
 import com.sptest.server.dao.model.entities.reports.MoneyReport;
 import com.sptest.server.services.IMoneyReportService;
+import com.sptest.server.services.IPlayerService;
 import com.sptest.server.services.IRoleService;
 import com.sptest.server.services.MoneyReportService;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import org.joda.time.LocalTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,22 +48,39 @@ public class Starter {
         role2.getEmployees().add(employeeEntity3);
 
         roleService.save(role1);
-        roleService.save(role2);
-*/
-        IMoneyReportService reportService = context.getBean(IMoneyReportService.class);
+        roleService.save(role2);*/
+       /* IMoneyReportService reportService = context.getBean(IMoneyReportService.class);
 
-        MoneyReport moneyReport1 = new MoneyReport(1232,"12", "100", "124.45f", "23123123");
-        MoneyReport moneyReport2 = new MoneyReport(1221,"13", "200", "145325.45f",
+        MoneyReport moneyReport1 = new MoneyReport(1232,"19", "100", "124.45f", "23123123");
+        MoneyReport moneyReport2 = new MoneyReport(1221,"189", "200", "145325.45f",
             String.valueOf(System.currentTimeMillis()));
-        MoneyReport moneyReport3 = new MoneyReport(1255,"14", "300", "19999.45f",
+        MoneyReport moneyReport3 = new MoneyReport(1255,"989", "300", "19999.45f",
             String.valueOf(System.currentTimeMillis()));
-        MoneyReport moneyReport4 = new MoneyReport(1299, "45","400", "145234.45f",
+        MoneyReport moneyReport4 = new MoneyReport(1299, "568","400", "145234.45f",
             String.valueOf(System.currentTimeMillis()));
         reportService.create(moneyReport1);
         reportService.create(moneyReport2);
         reportService.create(moneyReport3);
         reportService.create(moneyReport4);
-        reportService.findAll().forEach(System.out::println);
+        reportService.findAll().forEach(System.out::println);*/
+
+        IPlayerService playerService = context.getBean(IPlayerService.class);
+        PlayerDTO playerDTO = new PlayerDTO(45, "SGsd23DFH", 181, "vova", "yadenx.ru");
+
+        AccountDTO lineageAccount = new AccountDTO("metade", "52232",
+            System.currentTimeMillis());
+        lineageAccount.setPlayerDTO(playerDTO);
+
+        AccountDTO dotaAccount = new AccountDTO("sologin", "52532",
+            System.currentTimeMillis());
+        dotaAccount.setPlayerDTO(playerDTO);
+
+        Set<AccountDTO> accountDTOSet = new HashSet<>();
+        accountDTOSet.add(lineageAccount);
+        accountDTOSet.add(dotaAccount);
+        playerDTO.setAccounts(accountDTOSet);
+        playerService.save(playerDTO);
+
 
     }
 

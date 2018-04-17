@@ -4,14 +4,12 @@ import com.mongodb.MongoClient;
 import com.sptest.server.repository.ILocalShopRepository;
 import com.sptest.server.repository.LocalShopRepository;
 import com.sptest.server.utils.DBConstants;
-import java.net.UnknownHostException;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.authentication.UserCredentials;
 import org.springframework.data.mongodb.MongoDbFactory;
-import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.orm.jpa.JpaTransactionManager;
@@ -50,9 +48,12 @@ public class AppConfig {
 
     @Bean
     public MongoDbFactory mongoDbFactory() throws Exception {
-        MongoClient mongoClient = new MongoClient("localhost", 27017);
-        UserCredentials userCredentials = new UserCredentials("", "");
-        return new SimpleMongoDbFactory(mongoClient, "mongo_test_db", userCredentials);
+        MongoClient mongoClient = new MongoClient(DBConstants.MONGO_LOCAL_HOST,
+            DBConstants.MONGO_LOCAL_PORT);
+        UserCredentials userCredentials = new UserCredentials(DBConstants.MONGO_LOCAL_USER,
+            DBConstants.MONGO_LOCAL_PASSWORD);
+        return new SimpleMongoDbFactory(mongoClient, DBConstants.MONGO_DATABASE_NAME,
+            userCredentials);
     }
 
     @Bean

@@ -60,7 +60,7 @@ insert into role_employee(employee_id, role_id) values
   (1,9);
 
 --User data--
-insert into player(player_adress, player_age, player_name, email) VALUES
+insert into player(player_address, player_age, player_name, player_email) VALUES
   ('Bespalova 45a', 25, 'Yarik', 'ya@yandex.ru'),
   ('Bespalova 45a', 19, 'Didi', 'didi@yandex.ru'),
   ('SHkolnaya 39/4', 48, 'Luda', 'lola@yandex.ru'),
@@ -79,7 +79,7 @@ insert into account (login, password, last_data_enter, player_id) values
 select
   pl.player_id,
   pl.player_name,
-  pl.email,
+  pl.player_email,
   acc.last_data_enter,
   plrol.role_name
 from player as pl
