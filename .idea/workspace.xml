@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="457bc441-e6eb-47de-b014-8b0dca8ab907" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/GameDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9b135c2-e28d-4c7f-be0d-6c39df78190c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9b135c2-e28d-4c7f-be0d-6c39df78190c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IPlayerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IPlayerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IPlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IPlayerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PlayerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/query.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -222,7 +213,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="state_1_3_0" />
+        <entry key="$PROJECT_DIR$" value="4f6b780b3d3a8c8f2ea63977332e5b9d033ac7f0" />
       </map>
     </option>
   </component>
@@ -718,15 +709,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523929339964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add search.">
+      <created>1523954901992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523954901992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121020000" />
+    <option name="totallyTimeSpent" value="121337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -747,12 +744,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47413793" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33728448" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33728448" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.45797414" />
       <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.30495688" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.21092758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.21092758" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -862,7 +859,8 @@
     <MESSAGE value="Add .xls parser." />
     <MESSAGE value="Fix bugs, entity Role, Eployees work good." />
     <MESSAGE value="Add mongodb operations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mongodb operations." />
+    <MESSAGE value="Add search." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
