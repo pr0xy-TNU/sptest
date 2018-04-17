@@ -94,3 +94,18 @@ create table role (
   role_code   int(11),
   primary key (id)
 ) engine = InnoDB;
+--Games table--
+create table games (
+  game_id      int         not null auto_increment,
+  game_name    varchar(80) not null,
+  game_price   double      not null,
+  game_company varchar(80) not null,
+  primary key (game_id),
+  player_id    int         not null,
+  constraint fk_game_player_id
+  foreign key (player_id) references player (player_id)
+    on UPDATE cascade
+    on DELETE cascade,
+  index (player_id)
+)
+  engine = InnoDB;

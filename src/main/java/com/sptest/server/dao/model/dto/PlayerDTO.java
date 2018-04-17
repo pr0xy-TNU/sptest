@@ -13,6 +13,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 @Entity
 @Table(name = "player")
@@ -40,7 +44,12 @@ public class PlayerDTO {
     private String email;
 
     @OneToMany(mappedBy = "playerDTO", cascade = CascadeType.ALL)
+    @LazyCollection(LazyCollectionOption.FALSE)
     private Set<AccountDTO> accounts = new HashSet<>();
+
+    @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
+    @LazyCollection(LazyCollectionOption.FALSE)
+    private Set<GameDTO> games = new HashSet<>();
 
 
     public PlayerDTO(String address, int age, String name, String email) {
@@ -110,6 +119,14 @@ public class PlayerDTO {
         this.accounts = accounts;
     }
 
+    public Set<GameDTO> getGames() {
+        return games;
+    }
+
+    public void setGames(Set<GameDTO> gameDTOSet) {
+        this.games = gameDTOSet;
+    }
+
     @Override
     public String toString() {
         return "PlayerDTO{" +
@@ -118,7 +135,6 @@ public class PlayerDTO {
             ", age=" + age +
             ", name='" + name + '\'' +
             ", email='" + email + '\'' +
-            ", accounts=" + accounts +
             '}';
     }
 

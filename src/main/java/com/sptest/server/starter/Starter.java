@@ -2,6 +2,7 @@ package com.sptest.server.starter;
 
 import com.sptest.server.config.AppConfig;
 import com.sptest.server.dao.model.dto.AccountDTO;
+import com.sptest.server.dao.model.dto.GameDTO;
 import com.sptest.server.dao.model.dto.PlayerDTO;
 import com.sptest.server.dao.model.entities.EmployeeEntity;
 import com.sptest.server.dao.model.entities.RoleEntity;
@@ -65,21 +66,42 @@ public class Starter {
         reportService.findAll().forEach(System.out::println);*/
 
         IPlayerService playerService = context.getBean(IPlayerService.class);
-        PlayerDTO playerDTO = new PlayerDTO(45, "SGsd23DFH", 181, "vova", "yadenx.ru");
-
-        AccountDTO lineageAccount = new AccountDTO("metade", "52232",
+        /*PlayerDTO playerDTO = new PlayerDTO(35, "Bespalova 56", 181, "Yarik", "testemail@yadenx.ru");
+        Set<GameDTO> games = new HashSet<>();
+        games.add(new GameDTO("GTA", 50.5f, "Biosystem", playerDTO));
+        games.add(new GameDTO("Lineage2", 100.5f, "Microsystem", playerDTO));
+        games.add(new GameDTO("FIFA2010", 123.5f, "Namco", playerDTO));
+        games.add(new GameDTO("WoW", 504.5f, "Blizzard", playerDTO));
+        games.add(new GameDTO("WoT", 505.5f, "Wargaming", playerDTO));
+        AccountDTO lineageAccount = new AccountDTO("vendetta529", "52232",
             System.currentTimeMillis());
         lineageAccount.setPlayerDTO(playerDTO);
-
-        AccountDTO dotaAccount = new AccountDTO("sologin", "52532",
+        AccountDTO dotaAccount = new AccountDTO("blizzcon@yandex.ru", "52532",
             System.currentTimeMillis());
         dotaAccount.setPlayerDTO(playerDTO);
-
         Set<AccountDTO> accountDTOSet = new HashSet<>();
         accountDTOSet.add(lineageAccount);
         accountDTOSet.add(dotaAccount);
         playerDTO.setAccounts(accountDTOSet);
-        playerService.save(playerDTO);
+        playerDTO.setGames(games);
+        playerService.save(playerDTO);*/
+
+        PlayerDTO test = playerService.findPlayerByID(105);
+        System.out.println(test);
+        Set<AccountDTO> accounts = test.getAccounts();
+        Set<GameDTO> games = test.getGames();
+        System.out.println("Accounts");
+        if (accounts != null && !accounts.isEmpty()) {
+            accounts.forEach(System.out::println);
+        }
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println("Games");
+        if (games != null && !games.isEmpty()) {
+            games.forEach(System.out::println);
+
+        }
 
 
     }

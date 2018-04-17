@@ -19,4 +19,9 @@ public class PlayerService implements IPlayerService {
     public void save(PlayerDTO playerDTO) {
         playerDao.save(playerDTO);
     }
+
+    @Override
+    public PlayerDTO findPlayerByID(int id) {
+        return playerDao.findPlayerById(id);
+    }
 }

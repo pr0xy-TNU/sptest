@@ -6,4 +6,6 @@ public interface IPlayerService {
 
     void save(PlayerDTO playerDTO);
 
+    PlayerDTO findPlayerByID(int id);
+
 }
