@@ -13,6 +13,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class FileHelper {
+    public static String FILE_PATH = "G:/file1.xlsx";
+    public static String FILE_PATH_OUT = "G:/TestElsle/file1.txt";
 
     public static List<String> excelConverterText(String filePath) {
         List<String> rawData = new ArrayList<>();

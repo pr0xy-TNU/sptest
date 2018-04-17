@@ -2,44 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="457bc441-e6eb-47de-b014-8b0dca8ab907" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/PlayerRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IMoneyReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/reports/MoneyReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IMoneyReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/MoneyReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9b135c2-e28d-4c7f-be0d-6c39df78190c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9b135c2-e28d-4c7f-be0d-6c39df78190c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_core_1_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/AlbumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/AlbumDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ArtistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ArtistDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/AlbumsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/AlbumsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/ArtistsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/ArtistsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/AlbumDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ArtistDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IAlbumDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IArtistDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDaoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/AlbumsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/ArtistsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/Person.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/repository/LocalShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/repository/LocalShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/AlbumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/AlbumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/ArtistService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PersonServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/AlbumService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/ArtistService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IAlbumService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IArtistService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/PersonDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/PersonDaoImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/ClazzesEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/PhoneEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/ShopEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/StudentClazzesEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/StudentClazzesEntityPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/StudentEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/PersonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/PersonServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/traning.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,6 +81,13 @@
         <item name="jpa_test_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="jpa_test_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="account: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jpa_test_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jpa_test_db: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="employees: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
@@ -103,22 +109,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="608">
+              <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+            <state relative-caret-position="336">
+              <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoneyReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/reports/MoneyReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoneyReportDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,9 +161,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -140,13 +172,16 @@
       <find>find</find>
       <find>fast</find>
       <find>I</find>
+      <find>spring-core</find>
+      <find>spring-da</find>
+      <find>1.9</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="19b3855247322d8a68d550ab659201be0d0baf41" />
       </map>
     </option>
   </component>
@@ -160,19 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/services/IArtistService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/ArtistsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/IAlbumDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/AlbumDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/IAlbumService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/ArtistService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ArtistDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/AlbumService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/AlbumsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/starter/Starter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PersonServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IEmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/RoleDao.java" />
@@ -191,7 +213,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_3.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/PlayerRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_5.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_4.sql" />
@@ -209,8 +230,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/EmployeeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportDa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/repository/IUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/repository/IMoneyRepositor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/config/mongo/MongoConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IMoneyReportDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IMoneyReportService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/MoneyReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/reports/MoneyReport.java" />
       </list>
     </option>
   </component>
@@ -234,13 +269,29 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sptest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sptest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sptest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sptest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-17" />
-    <option name="width" value="1696" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1634" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -251,8 +302,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,6 +383,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sptest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sptest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -394,7 +457,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -582,7 +645,13 @@
       <workItem from="1523738894983" duration="1089000" />
       <workItem from="1523797068984" duration="659000" />
       <workItem from="1523797865711" duration="248000" />
-      <workItem from="1523870176694" duration="1937000" />
+      <workItem from="1523870176694" duration="2871000" />
+      <workItem from="1523893446633" duration="601000" />
+      <workItem from="1523896916138" duration="1993000" />
+      <workItem from="1523901322240" duration="5887000" />
+      <workItem from="1523907270790" duration="6187000" />
+      <workItem from="1523924033273" duration="2384000" />
+      <workItem from="1523927523174" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="Add .xls parser.">
       <created>1523300089249</created>
@@ -591,44 +660,51 @@
       <option name="project" value="LOCAL" />
       <updated>1523300089249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix bugs, entity Role, Eployees work good.">
+      <created>1523872252092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523872252092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92189000" />
+    <option name="totallyTimeSpent" value="111949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32909784" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20775095" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.329718" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" visible="true" weight="0.25794154" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2458704" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20457433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958123" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.5657328" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.20905173" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33728448" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50431037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5301724" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32212582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45797414" />
       <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.20266835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.19631512" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.2974138" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3059867" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -705,83 +781,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add .xls parser." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .xls parser." />
+    <MESSAGE value="Fix bugs, entity Role, Eployees work good." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs, entity Role, Eployees work good." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/artists">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/view/test_join">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -803,20 +810,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/ArtistsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/AlbumsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/ArtistsEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/AlbumsEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -824,20 +819,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IAlbumDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IArtistDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IAlbumDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IArtistDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IEmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -859,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/repository/LocalShopRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -880,27 +856,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/AlbumDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDaoImp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/RoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,88 +868,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ArtistDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IAlbumService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/AlbumService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IArtistService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/PersonServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/ArtistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ArtistDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/AlbumService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/PersonServiceImp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/ArtistService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IUserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/UserDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-          <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#1353#1383#1" expanded="true" />
-            <element signature="e#2448#2478#1" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-            <element signature="e#3099#3100#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,10 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/role_employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/player_role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1053,7 +935,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/AlbumDao.java" />
     <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/employees">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/role_employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1062,30 +952,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/EmployeeEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+        <state relative-caret-position="160">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PersonDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/utils/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/config/mongo/MongoConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/repository/IMoneyRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="749" column="6" selection-start-line="749" selection-start-column="6" selection-end-line="749" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/utils/DBConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IMoneyReportDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/RoleEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IMoneyReportService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+        <state relative-caret-position="80">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/MoneyReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/MoneyReportDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="608">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/entities/reports/MoneyReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

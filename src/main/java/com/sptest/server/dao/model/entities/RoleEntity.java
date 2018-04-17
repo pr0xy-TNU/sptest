@@ -1,6 +1,5 @@
 package com.sptest.server.dao.model.entities;
 
-import com.sun.istack.internal.NotNull;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
@@ -21,8 +20,7 @@ import javax.persistence.Table;
 public class RoleEntity implements Serializable {
 
     @Id
-    @NotNull
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Long id;
 
