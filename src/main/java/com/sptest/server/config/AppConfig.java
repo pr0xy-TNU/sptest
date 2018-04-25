@@ -114,16 +114,16 @@ public class AppConfig {
     dataSource.setUrl(mysqlDatabaseUrl);
     dataSource.setUsername(mysqlDatabaseUser);
     dataSource.setPassword(mysqlDatabasePassword);
+
     return dataSource;
   }
 
-  /*@Bean
+  @Bean
   public SpringLiquibase liquibase() {
     SpringLiquibase liquibase = new SpringLiquibase();
-    liquibase.setChangeLog("classpath:liquibase-changelog.xml");
+    liquibase.setChangeLog("classpath:liq-changelog.xml");
     liquibase.setDataSource(dataSource());
     return liquibase;
-  }*/
-
+  }
 
 }
