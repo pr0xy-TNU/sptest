@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="457bc441-e6eb-47de-b014-8b0dca8ab907" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,11 +83,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Starter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="88" column="57" selection-start-line="88" selection-start-column="57" selection-end-line="88" selection-end-column="57" />
+            <state relative-caret-position="464">
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="150" column="14" selection-start-line="141" selection-start-column="4" selection-end-line="150" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -92,12 +119,10 @@
       <file leaf-file-name="PlayerDTO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-251">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="224">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2443#2444#0" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,30 +153,19 @@
               <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPlayerDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/IPlayerDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayerDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="368">
               <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,20 +174,11 @@
       <file leaf-file-name="GameDTO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/GameDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="448">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -268,7 +273,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_10.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_11.sql" />
         <option value="b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/account.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/query.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_12.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/GameDTO.java" />
@@ -276,6 +280,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/IPlayerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/services/PlayerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java" />
       </list>
@@ -320,10 +325,13 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="495" />
-    <option name="y" value="87" />
-    <option name="width" value="1696" />
+    <option name="x" value="33" />
+    <option name="y" value="-23" />
+    <option name="width" value="1682" />
     <option name="height" value="1070" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -334,6 +342,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,9 +486,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,6 +495,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="G:/SpringRestExample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -637,19 +646,6 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -687,6 +683,10 @@
       <workItem from="1523907270790" duration="6187000" />
       <workItem from="1523924033273" duration="2384000" />
       <workItem from="1523927523174" duration="7335000" />
+      <workItem from="1524058952768" duration="47000" />
+      <workItem from="1524059351933" duration="656000" />
+      <workItem from="1526924205941" duration="41000" />
+      <workItem from="1526924281803" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="Add .xls parser.">
       <created>1523300089249</created>
@@ -716,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523954901992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add search.">
+      <created>1523954963140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523954963140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121337000" />
+    <option name="totallyTimeSpent" value="123957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1634" height="1066" extended-state="6" />
@@ -732,7 +739,7 @@
       <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.14040661" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2515883" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.20266835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958123" />
       <window_info id="UI Designer" order="2" />
@@ -743,56 +750,29 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47413793" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33728448" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45797414" />
-      <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.30495688" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.21092758" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34159482" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.20012707" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45797414" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958123" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20775095" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17344345" />
-      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33728448" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45797414" />
+      <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.2090216" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.30495688" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.20905173" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.14040661" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info id="Persistence" order="2" sideWeight="0.2021978" side_tool="true" weight="0.2979388" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.30495688" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.30495688" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34159482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958123" />
@@ -807,11 +787,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.14040661" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.33728448" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.20775095" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7978022" visible="true" weight="0.20012707" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17344345" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -820,6 +800,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
     </layout-to-restore>
   </component>
@@ -867,6 +848,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/games">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/player.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1093,32 +1081,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/query.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9b135c2-e28d-4c7f-be0d-6c39df78190c/console_12.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://b9b135c2-e28d-4c7f-be0d-6c39df78190c/schema/jpa_test_db/table/account">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1143,7 +1111,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/ShopDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
+        <state relative-caret-position="96">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
@@ -1152,58 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IPlayerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/PlayerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/GameDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1221,10 +1137,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="150" column="14" selection-start-line="141" selection-start-column="4" selection-end-line="150" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/AccountDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/starter/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/GameDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="88" column="57" selection-start-line="88" selection-start-column="57" selection-end-line="88" selection-end-column="57" />
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/model/dto/PlayerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/IPlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/services/PlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sptest/server/dao/PlayerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
