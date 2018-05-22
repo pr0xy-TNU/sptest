@@ -10,7 +10,7 @@ public class DBConstants {
     public static final String MONGO_DATABASE_NAME = "mongo_test_db";
     public static final String MONGO_LOCAL_HOST = "localhost";
     public static final String MONGO_LOCAL_USER = "";
-    public static final String MONGO_LOCAL_PASSWORD = "";
+    public static final String MONGO_LOCAL_PASSWORD = " ";
     public static final int MONGO_LOCAL_PORT = 27017;
 
 
